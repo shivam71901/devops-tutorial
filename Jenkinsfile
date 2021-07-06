@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("shivam7190/docker-demo")
+        app = docker.build("shivam7190/dockerdemo")
     }
 
     stage('Test image') {
